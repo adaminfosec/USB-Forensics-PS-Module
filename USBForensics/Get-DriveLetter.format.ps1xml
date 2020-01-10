@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Configuration>
+	<ViewDefinitions>
+		<View>
+			<Name>AdamInfoSec.RegistryInfo</Name>
+			<ViewSelectedBy>
+				<TypeName>AdamInfoSec.RegistryInfo</TypeName>
+			</ViewSelectedBy>
+			<TableControl>
+				<TableHeaders>
+					<TableColumnHeader/>
+					<TableColumnHeader/>
+					<TableColumnHeader/>
+				</TableHeaders>
+				<TableRowEntries>
+					<TableRowEntry>
+						<TableColumnItems>
+							<TableColumnItem>
+								<PropertyName>VolumeName</PropertyName>
+							</TableColumnItem>
+							<TableColumnItem>
+								<PropertyName>VolumeLetter</PropertyName>
+							</TableColumnItem>
+							<TableColumnItem>
+								<PropertyName>AsciiData</PropertyName>
+							</TableColumnItem>
+						</TableColumnItems>
+					</TableRowEntry>
+				</TableRowEntries>
+			</TableControl>
+		</View>
+	</ViewDefinitions>
+</Configuration>
